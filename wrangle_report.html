@@ -2,7 +2,7 @@
 <html>
 <head><meta charset="utf-8" />
 
-<title>Wrangle_Report</title>
+<title>wrangle_report</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -13085,23 +13085,10 @@ after input of the selected keywords, one would get back that data JSON file and
 <h4 id="Assessing-the-data:">Assessing the data:<a class="anchor-link" href="#Assessing-the-data:">&#182;</a></h4><p>After obtaining the tweet_dict I  was ready to do my visual assessments of all datasets in the data frames. I started off by doing visual assessment first this would help me identify which columns have incorrectly duplicated, or misspelled names. In the course, the instructor talked about assessing programmatically as well. I used the pandas .info module method to help me quickly identify whats corrupt or missing data.</p>
 <p>When I completed my assessments I wrote down the various quality, and tidiness issues I needed to take care of. Then it was time to clean my data.</p>
 <h4 id="Cleaning-the-data:">Cleaning the data:<a class="anchor-link" href="#Cleaning-the-data:">&#182;</a></h4><p>I cleaned the data by combining all three data frames and dropping any redundant columns that are unneeded, and any columns with "Not a Number " values.    I changed ratings to be in 1 column instead of two, and drop columns that don't have image prediction belonging to it.</p>
-<h4 id="Storing-the-data:">Storing the data:<a class="anchor-link" href="#Storing-the-data:">&#182;</a></h4><p>After completing the cleaning I stored the data frame on disk called twitter_archive_master.csv.</p>
+<h4 id="Storing-the-data:">Storing the data:<a class="anchor-link" href="#Storing-the-data:">&#182;</a></h4><p>After completing the cleaning I stored the data frame on disk called twitter_archive_master.csv</p>
 
 </div>
 </div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-
-    </div>
-</div>
-</div>
-
 </div>
     </div>
   </div>
